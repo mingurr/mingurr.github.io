@@ -25,4 +25,15 @@ document.addEventListener('scroll', () => {
 })
 
 //토글버튼
+const toggleBtn = document.querySelector('.header__toggle');
+const menu =  document.querySelector('.header__menu');
+toggleBtn.addEventListener('click', () => {
+    menu.classList.toggle('visible')
+})
+
+//메뉴 클릭 시 메뉴 사라지기
+menu.addEventListener('click', () => {
+    console.log('dd');
+    menu.classList.remove('visible');
+})
 
