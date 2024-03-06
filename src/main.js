@@ -1,3 +1,4 @@
+'use strict';
 // 메뉴 배경 색 바꾸기
 const header = document.querySelector('.header');
 const headerRect = header.getBoundingClientRect().height;
